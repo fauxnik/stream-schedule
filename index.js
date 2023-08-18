@@ -1,3 +1,5 @@
+const { html, render } = htmPreact;
+
 render(html`<${App} />`, document.getElementById('main-container'));
       
 function App() {
